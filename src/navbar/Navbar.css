@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -80px;
 }
 .logo{
 flex-basis: 15%;
@@ -53,7 +54,7 @@ flex-basis: 15%;
 @media screen and (max-width:600px) {
     .nav1{
         visibility: hidden;
-        position: fixed;
+        /* position: fixed; */
     }
     .heading{
         color: white;
@@ -62,20 +63,19 @@ flex-basis: 15%;
     }
     .nav2{
         visibility: visible;
-        position: fixed;
         align-items: center;
     }
 }
 @media screen and (max-width:400px) {
     .nav1{
         visibility: hidden;
-        position: fixed;
+        
     }
     .heading{
         visibility: hidden; 
     }
     .nav2{
         visibility: visible;
-        position: fixed;
+        /* position: fixed; */
     }
 }
