@@ -7,11 +7,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from './navbar/Navbar';
 import Coresol from './Coresol/Coresol';
+import Body1 from './Body/Body1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar/>
     <Coresol />
+    <Body1/>
   </React.StrictMode>
 );
 

@@ -2,13 +2,13 @@
     padding: 0!important;
 }
 .nav1{
-    /* padding: 0 3% 0 3%; */
+    padding: 0 3% 0 3%;
     height: 80px;
     width: inherit !important;
     background-color:rgb(187, 6, 232);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .nav2{
     visibility: hidden;
@@ -23,10 +23,11 @@
     margin-top: -80px;
 }
 .logo{
-flex-basis: 15%;
+flex-basis: 10%;
+margin-left: 3%;
 }
 .links{
-    flex-basis: 60%;
+    flex-basis: 80%;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -50,7 +51,7 @@ flex-basis: 15%;
 }
 .account{
     padding-left: 8%;
-    flex-basis:15% ;
+    flex-basis:10% ;
     float: right;
 }
 .social{
