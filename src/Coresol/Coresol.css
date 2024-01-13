@@ -1,7 +1,17 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
 }
 .cor{
     width: auto;
+}
+@media screen and (max-width:576px){
+.cor{
+    width: 100% !important;
+   }
+}
+@media screen and (max-width:768px){
+  .cor{
+    width: 100% !important;
+  }
 }
