@@ -1,8 +1,10 @@
-
+*{
+    padding: 0!important;
+}
 .nav1{
-    padding: 0 3% 0 3%;
+    /* padding: 0 3% 0 3%; */
     height: 80px;
-    width: 100%;
+    width: inherit !important;
     background-color:rgb(187, 6, 232);
     display: flex;
     align-items: center;
@@ -13,7 +15,7 @@
     position: fixed;
     padding: 0 3% 0 3%;
     height: 80px;
-    width: 100%;
+    width: 86vw;
     background-color:rgb(187, 6, 232);
     display: flex;
     align-items: center;
@@ -62,31 +64,26 @@ flex-basis: 15%;
 }
 @media screen and (max-width:576px) {
     *{
-        margin: 0;
-        padding: 0;
+        padding: 0 !important;
     }
     nav{
-        width: 100%;
+        width: 100% !important;
     }
     .nav1{
         visibility: hidden;
-        
+        width: 100%;
     }
     .heading{
-        visibility: hidden; 
+        visibility: visible; 
     }
     .nav2{
         visibility: visible;
         width: 100%;
-        padding: 0 3% 0 3%;
+        /* padding: 0 3% 0 3%; */
     }
     
 }
 @media screen and (max-width:768px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
     nav{
         width: 100%;
     }
@@ -103,6 +100,6 @@ flex-basis: 15%;
         visibility: visible;
         align-items: center;
         padding:0 3% 0 3% !important;
-        width: 100%;
+        width: 100%!important;
     }
 }
