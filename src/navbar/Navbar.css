@@ -51,7 +51,11 @@ flex-basis: 15%;
     flex-basis:15% ;
     float: right;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .nav1{
         visibility: hidden;
         /* position: fixed; */
@@ -64,9 +68,11 @@ flex-basis: 15%;
     .nav2{
         visibility: visible;
         align-items: center;
+        padding: 0;
+        width: 100vw;
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
     .nav1{
         visibility: hidden;
         
@@ -76,6 +82,6 @@ flex-basis: 15%;
     }
     .nav2{
         visibility: visible;
-        /* position: fixed; */
+        width: 100vw;
     }
 }
