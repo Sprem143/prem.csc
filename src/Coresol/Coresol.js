@@ -8,10 +8,10 @@ export default function Coresol(){
        <div id="carouselExampleSlidesOnly" class="carousel cor slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={img2} class="d-block w-100 img-fluid" alt="..."/>
+      <img src={img3} class="d-block w-100 img-fluid" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={img3} class="d-block w-100 img fluid" alt="..."/>
+      <img src={img2} class="d-block w-100 img fluid" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={img4} class="d-block w-100 img fluid" alt="..."/>
