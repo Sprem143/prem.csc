@@ -8,11 +8,11 @@ main{
 }
 @media screen and (max-width:576px) {
     main{
-       width: 120px;
+       width: 120%;
     }
 }
 @media screen and (max-width:768px) {
     main{
-       width: 120px;
+       width: 120%;
     }
 }
